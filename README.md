@@ -4,25 +4,38 @@ For the technical portion of the CHOP position interview, you will be asked to f
 References:
 
 https://docs.github.com/en/get-started/quickstart/fork-a-repo
+
 https://github.com/github/gitignore/blob/main/Unity.gitignore
+
 https://docs.unity3d.com/Manual/UIElements.html
+
 https://forum.unity.com/threads/file-i-o-via-unity.35193/
+
 https://www.instructables.com/How-to-BuildExport-Your-Game-in-Unity-to-Windows/
+
 https://docs.unity3d.com/ScriptReference/Object.DontDestroyOnLoad.html
+
 https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-InputField.html
 
 ## Key Concepts:
 ### Unity
 -I/O in C# 
+
 -Screenspace UI Components 
-  -Buttons
-  -Textviews
-  -Scrollviews
+
+    -Buttons
+    -Textviews
+    -Scrollviews
+
 -Building to an Executable
+
 -DontDestroyOnLoad
+
 ### GitHub
 -Forking
+
 -Using GitIgnores
+
 -Opening Pull Requests
 
 ## Overview:
