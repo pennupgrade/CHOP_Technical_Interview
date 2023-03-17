@@ -28,19 +28,25 @@ https://docs.unity3d.com/Packages/com.unity.ugui@1.0/manual/script-InputField.ht
 ## Overview:
 Basically you're gonna implement a rough terms and condition dialogue prompt in Unity, then build it to an executable. You will demo your working application during the first part of your non-technical interview on your own machine to keep operating system conflict issues to a minimum.
 
-Specifications:
-Scenes:
-- WaiverScene
-   Contains:
+## Specifications:
+### Scenes:
+#### WaiverScene
+      
       Text Input Component - asks for user name; sets the player name value in DontDestroyOnLoad.
+      
       Scroll View Component - reads in the text from disclosure.txt and displays it in a scroll view
+      
       Accept Button Component - launches the AcceptanceScene
+      
       Reject Button Component - Display a textbox that says "Sorry you can't do that"
-- AcceptanceScene
-    Contains:
-      Textbox - This should read something along the lines of "[Play name], you have accepted the terms and conditions."
-Global:
+      
+#### AcceptanceScene
+
+      Textbox - This should read something along the lines of "[Player name], you have accepted the terms and conditions."
+#### Global:
+  
   DontDestroyOnLoad
+      
       Player Class - has a getter and setting for a Name field
 
 Questions should be DMed to Edward on Discord.
