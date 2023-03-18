@@ -10,7 +10,7 @@ public class SaveName : MonoBehaviour
     private GameObject player;
 
     public void LoadScene() {
-        player = GameObject.Find("Player"); //.GetComponent<Player>();
+        player = GameObject.Find("Player"); 
         player.GetComponent<Player>().setName(input.text);
     }
 }

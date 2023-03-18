@@ -11,7 +11,11 @@ public class DisplayName : MonoBehaviour
     // Start is called before the first frame update
     void Start() {
         player = GameObject.Find("Player");
-        nameDisplay.GetComponent<Text>().text = player.GetComponent<Player>().getName() + ", you have accepted the terms and conditions.";
+        string n = player.GetComponent<Player>().getName();
+        if (n == "") {
+            n = "NAME";
+        }
+        nameDisplay.GetComponent<Text>().text = n + ", you have accepted the terms and conditions :)";
     }
 }
 
