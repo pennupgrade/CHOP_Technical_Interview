@@ -13,7 +13,9 @@ public class modifyText : MonoBehaviour
     void Start()
     {
 	Player player = GameObject.FindWithTag("Player").GetComponent<Player>();
-        canvasText.text = player.GetName() + ", you have accepted the terms and conditions.";
+	if (canvasText != null) {
+        	canvasText.text = player.GetName() + ", you have accepted the terms and conditions.";
+    
+	}
     }
-
 }
