@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class AcceptButton : MonoBehaviour
+public class AcceptButtonController : MonoBehaviour
 {
     public TMP_InputField field;
     public GameObject player;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class DisclosureTextReader : MonoBehaviour
+public class DisclosureFileReader : MonoBehaviour
 {
     public TMP_Text content;
     public TextAsset file;
