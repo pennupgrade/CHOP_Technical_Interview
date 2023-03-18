@@ -12,9 +12,6 @@ public class DisplayName : MonoBehaviour
     void Start() {
         player = GameObject.Find("Player");
         string n = player.GetComponent<Player>().getName();
-        if (n == "") {
-            n = "NAME";
-        }
         nameDisplay.GetComponent<Text>().text = n + ", you have accepted the terms and conditions :)";
     }
 }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
-    private string Name = "help";
+    private string Name = "";
 
     void Awake() {
         DontDestroyOnLoad(this.gameObject);
