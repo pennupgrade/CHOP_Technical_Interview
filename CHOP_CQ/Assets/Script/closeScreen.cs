@@ -6,10 +6,13 @@ using UnityEngine;
 
 public class closeScreen : MonoBehaviour
 {
-    
-
-	public void QuitGame (int sceneID) {
+    	public void GoBack (int sceneID) {
 
         	SceneManager.LoadScene(sceneID);
+	}
+
+	public void QuitGame () {
+
+        	Application.Quit();
 	}
 }
