@@ -12,7 +12,7 @@ public class LoadText : MonoBehaviour
         if (!obj.Equals(null))
         {
             txt = obj.GetComponent<DontDestroy>().getName();
-            this.GetComponent<TMPro.TMP_Text>().text = "good work " + txt + ", you're did it";
+            this.GetComponent<TMPro.TMP_Text>().text = txt + ", you've accepted the terms and conditions!";
         }
 
     }

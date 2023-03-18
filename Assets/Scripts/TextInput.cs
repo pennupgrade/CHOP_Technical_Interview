@@ -25,11 +25,11 @@ public class TextInput : MonoBehaviour
         text = mainInputField.text;
         if(canProceed())
         {
-            this.GetComponent<Image>().color = new Color(0, 0, 0, 1f);
+            this.GetComponent<Image>().color = new Color(255, 255, 255, 1f);
         }
         else
         {
-            this.GetComponent<Image>().color = new Color(0, 0, 0, 0.5f);
+            this.GetComponent<Image>().color = new Color(255, 255, 255, 0.5f);
         }
     }
     public bool canProceed()
