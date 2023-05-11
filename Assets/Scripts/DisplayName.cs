@@ -1,17 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class DisplayName : MonoBehaviour
 {
     public TMP_Text content;
-    private GameObject player;
+    private GameObject _player;
 
     // we update the text at the start
-    void Start()
+    private void Start()
     {
-        player = GameObject.Find("Player");
-        content.text = player.GetComponent<Player>().getName() + ", you have accepted the terms and conditions.";
+        _player = GameObject.Find("Player");
+        content.text = _player.GetComponent<Player>().GetName() + ", you have accepted the terms and conditions.";
     }
 }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,22 +11,15 @@ public class AcceptButtonController : MonoBehaviour
 
     // we set the player name from the input field right before
     // switching to AcceptanceScene
-    public void switchScene()
+    public void SwitchScene()
     {
-        player.GetComponent<Player>().setName(field.text);
+        player.GetComponent<Player>().SetName(field.text);
         SceneManager.LoadScene("AcceptanceScene");
     }
 
     // while the input field is empty, we disable the button.
-    void Update()
+    private void Update()
     {
-        if (field.text == "")
-        {
-            acceptButton.interactable = false;
-        }
-        else
-        {
-            acceptButton.interactable = true;
-        }
+        acceptButton.interactable = field.text != "";
     }
 }

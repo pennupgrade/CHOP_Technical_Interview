@@ -2403,7 +2403,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1644719004}
         m_TargetAssemblyTypeName: AcceptButton, Assembly-CSharp
-        m_MethodName: switchScene
+        m_MethodName: SwitchScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
